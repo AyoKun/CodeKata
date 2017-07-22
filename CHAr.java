@@ -5,6 +5,7 @@ class Main{
   char input(){
     char ch;
     Scanner sc = new Scanner(System.in);
+    System.out.println("Enter any character : ");
     ch = sc.next().charAt(0);
     return ch;
     }
